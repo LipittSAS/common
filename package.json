@@ -1,0 +1,19 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "Common models between the API and the Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:patch": "./tools/build.sh patch",
+    "build:minor": "./tools/build.sh minor",
+    "build:major": "./tools/build.sh major"
+  },
+  "author": "combis.loic@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,23 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "rootDir": ".",
+      "outDir": "builds/temp/browser",
+      "sourceMap": true,
+      "declaration": true,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "noPropertyAccessFromIndexSignature": false,
+      "esModuleInterop": true,
+      "importHelpers": true,
+      "target": "esnext",
+      "lib": ["esnext", "dom"],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "baseUrl": "."
+    },
+    "exclude": ["node_modules", "tmp"],
+    "include": ["src"]
+  }
+  
