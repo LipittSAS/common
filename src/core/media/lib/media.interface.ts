@@ -6,7 +6,7 @@ export interface Media {
 
     name: string;
 
-    originalSize: string;
+    originalSize: number;
     originalName: string;
 
     status: MediaStatus;
