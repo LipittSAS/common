@@ -26,6 +26,12 @@ git commit -m "Build v$MODULE_VERSION"
 
 git tag "v$MODULE_VERSION"
 
+rm -rf builds/
+
+git add . 
+
+git commit -m "Clean up v$MODULE_VERSION"
+
 git checkout -
 
 git stash pop
