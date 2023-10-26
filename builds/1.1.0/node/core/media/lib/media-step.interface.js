@@ -4,13 +4,10 @@
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "tslib", "./auth", "./user"], factory);
+        define(["require", "exports"], factory);
     }
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    const tslib_1 = require("tslib");
-    tslib_1.__exportStar(require("./auth"), exports);
-    tslib_1.__exportStar(require("./user"), exports);
 });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=media-step.interface.js.map
