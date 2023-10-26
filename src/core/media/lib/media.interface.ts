@@ -13,7 +13,6 @@ export interface Media {
 
     estimation: number;
 
-    from: string;
     to: string;
 
     includeSubtitles: boolean;
