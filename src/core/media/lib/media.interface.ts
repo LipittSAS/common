@@ -1,3 +1,4 @@
+import { User } from "src/core/user";
 import { MediaStatus } from "./media-status.enum";
 import { MediaStep } from "./media-step.interface";
 
@@ -20,6 +21,9 @@ export interface Media {
     start: Date;
     end: Date;
 
+    ownerId: string;
+    owner?: User;
+
     steps: MediaStep[];
   
     updatedAt: Date;
@@ -29,5 +33,5 @@ export interface Media {
 export interface CreateMediaRequest {
     name: string;
     target: string;
-    includeSubTitles: string;
+    includeSubTitles: boolean;
 }
