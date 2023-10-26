@@ -1,4 +1,4 @@
-import { User } from "src/core/user";
+import { User } from "../../user";
 import { MediaStatus } from "./media-status.enum";
 import { MediaStep } from "./media-step.interface";
 
