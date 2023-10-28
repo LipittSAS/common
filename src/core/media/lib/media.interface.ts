@@ -15,7 +15,7 @@ export interface Media {
 
     estimation: number;
 
-    to: string;
+    to: SupportedLanguages;
 
     start: Date;
     end: Date;
