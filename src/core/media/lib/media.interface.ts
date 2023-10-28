@@ -8,7 +8,7 @@ export interface Media {
     name: string;
 
     originalSize: number;
-    originalName: string;
+    originalExt: string;
 
     status: MediaStatus;
 
