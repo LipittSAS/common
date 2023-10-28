@@ -16,8 +16,6 @@ export interface Media {
 
     to: string;
 
-    includeSubtitles: boolean;
-
     start: Date;
     end: Date;
 
@@ -33,5 +31,4 @@ export interface Media {
 export interface CreateMediaRequest {
     name: string;
     target: string;
-    includeSubTitles: boolean;
 }
