@@ -1,3 +1,4 @@
+import { SupportedLanguages } from "src/common";
 import { User } from "../../user";
 import { MediaStatus } from "./media-status.enum";
 import { MediaStep } from "./media-step.interface";
@@ -30,5 +31,5 @@ export interface Media {
 
 export interface CreateMediaRequest {
     name: string;
-    target: string;
+    target: SupportedLanguages;
 }
