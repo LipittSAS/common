@@ -1,4 +1,4 @@
-import { SupportedLanguages } from "src/common";
+import { SupportedLanguages } from "../../../common";
 import { User } from "../../user";
 import { MediaStatus } from "./media-status.enum";
 import { MediaStep } from "./media-step.interface";
