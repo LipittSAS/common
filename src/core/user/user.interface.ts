@@ -1,5 +1,5 @@
-import { UserRole } from './user-role.enum';
-import { UserState } from './user-state.enum';
+import { UserRole } from "./user-role.enum";
+import { UserState } from "./user-state.enum";
 
 export interface User {
   id: string;
@@ -15,6 +15,10 @@ export interface User {
 
   avatarUrl?: string;
   preferredLanguage?: string;
+
+  credits?: number;
+  pendingCredits?: number;
+  usedCredits?: number;
 
   updatedAt?: Date;
   createdAt?: Date;

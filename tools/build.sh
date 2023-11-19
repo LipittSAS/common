@@ -36,3 +36,7 @@ git checkout -
 
 git stash pop
 
+git push --tags
+
+
+

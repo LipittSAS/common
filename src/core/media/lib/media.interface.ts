@@ -4,32 +4,35 @@ import { MediaStatus } from "./media-status.enum";
 import { MediaStep } from "./media-step.interface";
 
 export interface Media {
-    id: string;
+  id: string;
 
-    name: string;
+  name: string;
 
-    originalSize: number;
-    originalExt: string;
+  originalSize: number;
+  originalExt: string;
 
-    status: MediaStatus;
+  status: MediaStatus;
 
-    estimation: number;
+  estimation: number;
 
-    to: SupportedLanguages;
+  to: SupportedLanguages;
 
-    start: Date;
-    end: Date;
+  start: Date;
+  end: Date;
 
-    ownerId: string;
-    owner?: User;
+  ownerId: string;
+  owner?: User;
 
-    steps: MediaStep[];
-  
-    updatedAt: Date;
-    createdAt: Date;
+  steps: MediaStep[];
+
+  credits?: number;
+  duration?: number;
+
+  updatedAt: Date;
+  createdAt: Date;
 }
 
 export interface CreateMediaRequest {
-    name: string;
-    target: SupportedLanguages;
+  name: string;
+  target: SupportedLanguages;
 }
