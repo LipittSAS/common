@@ -1,6 +1,6 @@
 {
   "name": "common",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Common models between the API and the Client",
   "main": "index.js",
   "scripts": {
