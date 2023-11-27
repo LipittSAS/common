@@ -12,13 +12,13 @@ tsc -p tsconfig.browser.json
 
 MODULE_VERSION=$(node -p -e "require('./package.json').version")
 
-mkdir builds/$MODULE_VERSION
-mv builds/temp/browser/src builds/$MODULE_VERSION/browser
-mv builds/temp/node/src builds/$MODULE_VERSION/node
+mkdir builds
+mv builds/temp/browser/src builds/browser
+mv builds/temp/node/src builds/node
 
 rm -rf builds/temp
 
-cp TEMPLATE_README.md builds/$MODULE_VERSION/README.md
+cp TEMPLATE_README.md builds/README.md
 
 git add .
 

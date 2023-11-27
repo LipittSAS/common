@@ -1,10 +1,10 @@
-import { MediaStep, MediaStepStatus } from "../../media";
+import { MediaStep } from "../../media";
 
 export interface Usage {
   id: string;
   start?: Date;
   end?: Date;
-  status?: MediaStepStatus;
+  status?: string;
 
   cuConsumed?: number;
 
