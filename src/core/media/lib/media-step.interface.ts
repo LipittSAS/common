@@ -6,6 +6,8 @@ export interface MediaStep {
 
     mediaId: string;
 
+    order: number;
+
     type: MediaStepType;
     status: MediaStepStatus;
 
