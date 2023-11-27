@@ -23,6 +23,8 @@ export interface Media {
   ownerId: string;
   owner?: User;
 
+  transcription?: any[];
+
   steps: MediaStep[];
 
   credits?: number;
