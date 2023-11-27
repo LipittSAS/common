@@ -16,10 +16,6 @@ export interface User {
   avatarUrl?: string;
   preferredLanguage?: string;
 
-  credits?: number;
-  pendingCredits?: number;
-  usedCredits?: number;
-
   updatedAt?: Date;
   createdAt?: Date;
 }
