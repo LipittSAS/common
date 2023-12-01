@@ -4,12 +4,18 @@ git switch main
 
 npm version $1 --no-git-tag-version
 
+rm -rf builds/
 rm -rf node/
 rm -rf browser/
 
 tsc 
 
 tsc -p tsconfig.browser.json
+
+mv builds/node/src node
+mv builds/browser/src browser
+
+rm -rf builds/
 
 MODULE_VERSION=$(node -p -e "require('./package.json').version")
 

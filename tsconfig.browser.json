@@ -2,7 +2,7 @@
     "compileOnSave": false,
     "compilerOptions": {
       "rootDir": ".",
-      "outDir": "browser",
+      "outDir": "./builds/browser",
       "sourceMap": true,
       "declaration": true,
       "moduleResolution": "node",
