@@ -4,7 +4,8 @@ git switch main
 
 npm version $1 --no-git-tag-version
 
-rm -rf builds/
+rm -rf node/
+rm -rf browser/
 
 tsc 
 
@@ -12,21 +13,14 @@ tsc -p tsconfig.browser.json
 
 MODULE_VERSION=$(node -p -e "require('./package.json').version")
 
-mkdir builds
-mv builds/temp/browser/src builds/browser
-mv builds/temp/node/src builds/node
-
-rm -rf builds/temp
-
-cp TEMPLATE_README.md builds/README.md
-
 git add .
 
 git commit -m "Build v$MODULE_VERSION"
 
 git tag "v$MODULE_VERSION"
 
-rm -rf builds/
+rm -rf node/
+rm -rf browser/
 
 git add . 
 
