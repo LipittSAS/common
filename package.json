@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:patch": "./tools/build.sh patch",
-    "build:minor": "./tools/build.sh minor",
-    "build:major": "./tools/build.sh major"
+    "publish:patch": "./tools/publish.sh patch",
+    "publish:minor": "./tools/publish.sh minor",
+    "publish:major": "./tools/publish.sh major"
   },
   "author": "combis.loic@gmail.com",
   "license": "ISC",
