@@ -19,7 +19,7 @@ git commit -m "Build v$MODULE_VERSION"
 
 git tag "v$MODULE_VERSION"
 
-npm publish
+npm publish --access public
 
 rm -rf node/
 rm -rf browser/
