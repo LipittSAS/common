@@ -1,6 +1,6 @@
 {
   "version": "1.4.2",
-  "name": "lipitt-common",
+  "name": "@lipitt/common",
   "description": "Common models between the API and the Client",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,12 @@
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LipittSAS/common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LipittSAS/common/issues"
+  },
+  "homepage": "https://github.com/LipittSAS/common#readme"
 }
