@@ -1,4 +1,4 @@
-import { User } from "src/core/user";
+import { User } from "../../user";
 import { CreditsStatus } from "./credits.enum";
 
 export interface Credits {
