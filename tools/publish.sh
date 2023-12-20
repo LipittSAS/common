@@ -25,6 +25,10 @@ git commit -m "Build v$MODULE_VERSION"
 
 git tag "v$MODULE_VERSION"
 
+git push origin main 
+
+git push --tags
+
 npm publish --access public
 
 rm -rf node/
