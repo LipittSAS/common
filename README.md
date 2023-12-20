@@ -14,5 +14,5 @@ This module shares the common constants and models between the client and the ap
 - Make sure you do the following :
 
 1. Commit your work to the main branch and ensure it's there
-2. Run `npm run build:{patch | minor | major}` based on the work you've done
+2. Run `npm run publish:{patch | minor | major}` based on the work you've done
 3. You should be good, verify the work is correctly pushed
