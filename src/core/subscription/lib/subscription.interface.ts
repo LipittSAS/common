@@ -1,4 +1,4 @@
-import { StripeSubscriptionStatus } from "src/common";
+import { StripeSubscriptionStatus } from "../../../common";
 import { User } from "../../user";
 
 export interface SubscriptionLipitt {
