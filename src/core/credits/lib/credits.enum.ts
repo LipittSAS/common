@@ -1,5 +1,6 @@
 export enum CreditsStatus {
   active = "active",
   ended = "ended",
-  scheduled = "scheduled",
+  paused = "paused",
+  deleted = "deleted",
 }

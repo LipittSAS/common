@@ -1,10 +1,9 @@
 import { StripeSubscriptionRecurring } from "./enums/stripe-subscription-recurring.enum";
 import { StripeSubscriptionStatus } from "./enums/stripe-subscription-status.enum";
 
+// In theory not used
 export class StripeSubscription {
   id: string;
-
-  stripeId: string;
 
   recurring: StripeSubscriptionRecurring;
   status: StripeSubscriptionStatus;

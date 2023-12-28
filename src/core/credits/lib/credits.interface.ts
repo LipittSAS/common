@@ -3,6 +3,7 @@ import { CreditsStatus } from "./credits.enum";
 
 export interface Credits {
   id: string;
+  
   credits?: number;
   pendingCredits?: number;
   usedCredits?: number;
@@ -11,6 +12,7 @@ export interface Credits {
   start?: Date;
   end?: Date;
 
+  customerId: string;
   userId?: string;
   user?: User;
 
