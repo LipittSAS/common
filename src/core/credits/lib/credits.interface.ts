@@ -3,6 +3,7 @@ import { CreditsStatus } from "./credits.enum";
 
 export interface Credits {
   id: string;
+  plan: string;
   
   credits?: number;
   pendingCredits?: number;
