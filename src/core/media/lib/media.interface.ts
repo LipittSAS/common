@@ -30,6 +30,8 @@ export interface Media {
   credits?: number;
   duration?: number;
 
+  previewUrl?: string;
+
   updatedAt: Date;
   createdAt: Date;
 }
