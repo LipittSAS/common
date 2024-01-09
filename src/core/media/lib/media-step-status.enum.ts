@@ -1,4 +1,5 @@
 export enum MediaStepStatus {
+    idle = 'idle',
     awaiting = 'awaiting',
     processing = 'processing',
     error = 'error',
