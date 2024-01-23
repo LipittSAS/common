@@ -23,6 +23,7 @@ export enum SupportedLanguages {
   svSE = 'sv-SE',
   bg = 'bg',
   ro = 'ro',
+  arXA = 'ar-XA',
   arSA = 'ar-SA',
   arAE = 'ar-AE',
   csCZ = 'cs-CZ',

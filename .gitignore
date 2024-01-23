@@ -2,3 +2,5 @@
 node_modules/
 
 builds/temp
+
+.DS_Store
