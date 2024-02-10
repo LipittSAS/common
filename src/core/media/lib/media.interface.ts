@@ -23,7 +23,20 @@ export interface Media {
   ownerId: string;
   owner?: User;
 
-  transcription?: { speakers: { speaker: string, timestamp: number[], text: string }[] };
+  transcription?: { 
+    speakers: { 
+      speaker: string, 
+      nickname?: string,
+      timestamp: number[], 
+      text: string,
+      words: {
+        word: string,
+        start: number,
+        end: number,
+        probability: number
+      }[]
+    }[] 
+  };
 
   steps: MediaStep[];
 
