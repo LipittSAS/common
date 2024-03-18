@@ -15,6 +15,8 @@ export interface MediaStep {
 
     start: Date;
     end: Date;
+
+    failure?: string
   
     updatedAt: Date;
     createdAt: Date;

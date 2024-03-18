@@ -9,6 +9,6 @@ export enum MediaStepType {
     assembleAudio = 'assemble_audio',
     associateSpeakersToFaces = "associate_speakers_to_faces",
     syncLips = "sync_lips",
-    upgradeQuality = "upgrade_quality",
-    assembleMedia = "assemble_media"
+    assembleMedia = "assemble_media",
+    blend_lip_sync = "blend_lip_sync"
 }
