@@ -13,8 +13,8 @@ export interface MediaStep {
 
     retries: number;
 
-    start: Date;
-    end: Date;
+    start?: Date;
+    end?: Date;
 
     failure?: string
   

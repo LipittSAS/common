@@ -20,3 +20,14 @@ export interface Credits {
   createdAt?: Date;
   updatedAt?: Date;
 }
+
+
+export interface CreditsCreation {
+  userId: string;
+  customerId?: string;
+  credits: number;
+  plan: string;
+  start: Date;
+  end: Date;
+  status: CreditsStatus;
+}
