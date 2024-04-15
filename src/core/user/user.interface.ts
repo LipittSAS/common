@@ -24,3 +24,14 @@ export interface User {
   updatedAt?: Date;
   createdAt?: Date;
 }
+
+export interface UserCreationInput {
+  email: string,
+  preferredLanguage: string,
+}
+
+
+export interface UserCreationDTO extends UserCreationInput {
+    role: UserRole,
+    state: UserState.inactive,
+}

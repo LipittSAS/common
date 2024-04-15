@@ -3,6 +3,28 @@ import { User } from "../../user";
 import { MediaStatus } from "./media-status.enum";
 import { MediaStep } from "./media-step.interface";
 
+
+export interface MediaTranscriptionSegmentWord {
+  word: string;
+  start: number;
+  end: number;
+  probability: number;
+}
+
+export interface MediaTranscriptionSegment {
+  speaker: string;
+  text: string;
+  timestamp: number[];
+  words: MediaTranscriptionSegmentWord[];
+}
+
+export interface MediaTranscription {
+  speakers: MediaTranscriptionSegment[];
+}
+
+export type MediaTranscriptionUpdateType = Partial<MediaTranscription>;
+
+
 export interface Media {
   id: string;
 
@@ -17,26 +39,14 @@ export interface Media {
 
   to: SupportedLanguages;
 
-  start: Date;
-  end: Date;
+  start?: Date;
+  end?: Date;
 
   ownerId: string;
   owner?: User;
 
-  transcription?: { 
-    speakers: { 
-      speaker: string, 
-      nickname?: string,
-      timestamp: number[], 
-      text: string,
-      words: {
-        word: string,
-        start: number,
-        end: number,
-        probability: number
-      }[]
-    }[] 
-  };
+  transcription: MediaTranscription
+
 
   steps: MediaStep[];
 
