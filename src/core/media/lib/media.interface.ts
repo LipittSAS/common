@@ -62,4 +62,5 @@ export interface Media {
 export interface CreateMediaRequest {
   name: string;
   target: SupportedLanguages;
+  shouldLipSync: boolean;
 }
