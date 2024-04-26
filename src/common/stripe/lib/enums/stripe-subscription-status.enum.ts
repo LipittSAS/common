@@ -3,8 +3,8 @@ export enum StripeSubscriptionStatus {
   Active = "active",
   PastDue = "past_due",
   Canceled = "canceled",
-  Deleted = 'deleted',
   Unpaid = "unpaid",
   Incomplete = "incomplete",
   IncompleteExpired = "incomplete_expired",
+  Paused = "paused"
 }
