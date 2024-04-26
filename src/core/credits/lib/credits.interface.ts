@@ -13,8 +13,7 @@ export interface Credits {
   start?: Date;
   end?: Date;
 
-  customerId: string;
-  userId?: string;
+  userId: string;
   user?: User;
 
   createdAt?: Date;
