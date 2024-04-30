@@ -59,8 +59,21 @@ export interface Media {
   createdAt: Date;
 }
 
+export interface S3UploadTemporaryUrlRequest {
+  size: number,
+  duration: number,
+  extension: string,
+  mimeType: string,
+}
+
+export interface S3UploadTemporaryUrlResponse {
+  key: string, 
+  url: string
+}
+
 export interface CreateMediaRequest {
   name: string;
   target: SupportedLanguages;
   shouldLipSync: boolean;
+  unverifiedMediaKey: string;
 }
