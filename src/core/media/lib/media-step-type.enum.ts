@@ -1,4 +1,5 @@
 export enum MediaStepType {
+    verifyMedia = "verify_media",
     splitAudioAndVideo = "split_audio_and_video",
     dissociateVoicesFromBackgroundNoise = "dissociate_voices_from_background_noise",
     voicesAndTranscriptionsBySpeaker = "voices_and_transcriptions_by_speaker",
