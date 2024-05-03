@@ -38,6 +38,7 @@ export interface Media {
   estimation: number;
 
   to: SupportedLanguages;
+  plan?: string;
 
   start?: Date;
   end?: Date;
