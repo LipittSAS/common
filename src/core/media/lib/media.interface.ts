@@ -74,7 +74,7 @@ export interface S3UploadTemporaryUrlResponse {
 
 export interface CreateMediaRequest {
   name: string;
-  target: SupportedLanguages;
+  targets: SupportedLanguages[];
   shouldLipSync: boolean;
   unverifiedMediaKey: string;
 }
