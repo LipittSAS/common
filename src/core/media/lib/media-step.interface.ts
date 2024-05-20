@@ -1,3 +1,4 @@
+import { SupportedLanguages } from "src/common";
 import { MediaStepStatus } from "./media-step-status.enum";
 import { MediaStepType } from "./media-step-type.enum";
 
@@ -12,6 +13,7 @@ export interface MediaStep {
     status: MediaStepStatus;
 
     retries: number;
+    target?: SupportedLanguages
 
     start?: Date;
     end?: Date;
