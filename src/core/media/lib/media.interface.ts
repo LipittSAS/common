@@ -42,6 +42,7 @@ export interface Media {
 
   start?: Date;
   end?: Date;
+  flowType: MediaFlowType;
 
   ownerId: string;
   owner?: User;
@@ -58,6 +59,11 @@ export interface Media {
 
   updatedAt: Date;
   createdAt: Date;
+}
+
+export enum MediaFlowType {
+  translation = 'translation',
+  translation_no_lipsync = 'translation_no_lipsync',
 }
 
 export interface S3UploadTemporaryUrlRequest {
@@ -78,3 +84,5 @@ export interface CreateMediaRequest {
   shouldLipSync: boolean;
   unverifiedMediaKey: string;
 }
+
+
