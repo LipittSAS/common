@@ -7,3 +7,5 @@ export enum MediaStatus {
     stopped = 'stopped',
     error = 'error'
 }
+
+//remove task from queue if processing , 
