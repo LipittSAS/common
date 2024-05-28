@@ -15,7 +15,7 @@ export interface MediaTranscriptionSegment {
   speaker: string;
   text: string;
   timestamp: number[];
-  face: string;
+  selectedFaces: string[];
   faces: string[];
   words: MediaTranscriptionSegmentWord[];
 }
