@@ -22,6 +22,7 @@ export interface MediaTranscriptionSegment {
 
 export interface MediaTranscription {
   speakers: MediaTranscriptionSegment[];
+  listOfSpeakers: string[];
 }
 
 export type MediaTranscriptionUpdateType = Partial<MediaTranscription>;

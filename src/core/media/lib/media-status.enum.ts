@@ -8,4 +8,3 @@ export enum MediaStatus {
     error = 'error'
 }
 
-//remove task from queue if processing , 
