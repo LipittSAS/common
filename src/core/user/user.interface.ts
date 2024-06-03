@@ -1,4 +1,5 @@
 import { Credits } from "../credits";
+import { Vocabulary } from "../vocabulary";
 import { UserRole } from "./user-role.enum";
 import { UserState } from "./user-state.enum";
 
@@ -20,6 +21,7 @@ export interface User {
   preferredLanguage?: string;
 
   credits?: Credits[]
+  vocabulary?: Vocabulary
 
   updatedAt?: Date;
   createdAt?: Date;
