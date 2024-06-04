@@ -8,6 +8,7 @@ export interface SubscriptionLipitt {
   end?: Date;
   subscriptionId?: string;
   subscriptionStatus?: StripeSubscriptionStatus;
+  recurrence: string;
   customerId?: string;
   productId?: string
   userId?: string;
