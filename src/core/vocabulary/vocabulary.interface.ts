@@ -3,3 +3,6 @@ export interface Vocabulary {
     terms: string[];
     userId: string;
 }
+export interface UpdateVocabularyRequest {
+    terms: string[];
+}
