@@ -81,9 +81,9 @@ export interface S3UploadTemporaryUrlResponse {
   url: string
 }
 
-export interface TextReplacementMode{
-  technicalTerms: "technical_terms";
-  properNames: "proper_names"
+export enum TextReplacementMode {
+  technicalTerms = 'technical_terms',
+  properNames = 'proper_names'
 }
 
 export interface CreateMediaRequest {
