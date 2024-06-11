@@ -16,3 +16,10 @@ export interface SubscriptionLipitt {
   createdAt?: Date;
   updatedAt?: Date;
 }
+
+
+export enum SubscriptionPlan {
+  premium= "premium",
+  master="master",
+  entreprise="entreprise"
+}
