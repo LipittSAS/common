@@ -4,6 +4,7 @@ export enum MediaStepType {
     voicesAndTranscriptionsBySpeaker = "voices_and_transcriptions_by_speaker",
     fixTranscriptions = "fix_transcription",
     translateTranscriptions = "translate_transcription",
+    fixTranslatedTranscriptions = "fix_translated_transcription",
     cloneVoices = "clone_voices",
     generateVoices = "generate_voices",
     assembleAudio = 'assemble_audio',
