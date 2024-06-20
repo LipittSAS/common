@@ -91,6 +91,7 @@ export interface CreateMediaRequest {
   targets: SupportedLanguages[];
   shouldLipSync: boolean;
   unverifiedMediaKey: string;
+  withCaptions: boolean;
 }
 
 
