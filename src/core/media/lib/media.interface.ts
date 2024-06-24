@@ -67,8 +67,9 @@ export interface Media {
 export enum MediaFlowType {
   translation = 'translation',
   translation_no_lipsync = 'translation_no_lipsync',
+  translation_caption = 'translation_caption',
+  translation_caption_no_lipsync = 'translation_caption_no_lipsync',
 }
-
 export interface S3UploadTemporaryUrlRequest {
   size: number,
   duration: number,
