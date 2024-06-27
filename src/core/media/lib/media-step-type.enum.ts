@@ -1,6 +1,9 @@
 export enum MediaStepType {
     splitAudioAndVideo = "split_audio_video",
     dissociateVoicesFromBackgroundNoise = "dissociate_voices_from_background",
+    detectFaces = "detect_faces",
+    diarization = "diarization",
+    activeSpeakerDetection = "active_speaker_detection",
     voicesAndTranscriptionsBySpeaker = "voices_and_transcriptions_by_speaker",
     fixTranscriptions = "fix_transcription",
     translateTranscriptions = "translate_transcription",
