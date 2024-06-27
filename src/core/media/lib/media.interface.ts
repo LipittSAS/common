@@ -68,7 +68,7 @@ export enum MediaFlowType {
   translation = 'translation',
   translation_v2 = 'translation_v2',
   translation_no_lipsync = 'translation_no_lipsync',
-  translation_no_lipsync_v2 = 'translation_no_lipsync',
+  translation_no_lipsync_v2 = 'translation_no_lipsync_v2',
   translation_caption = 'translation_caption',
   translation_caption_no_lipsync = 'translation_caption_no_lipsync',
 }
