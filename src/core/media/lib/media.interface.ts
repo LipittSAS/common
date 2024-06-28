@@ -39,6 +39,7 @@ export interface Media {
   status: MediaStatus;
 
   estimation: number;
+  srcLanguage?: SupportedLanguages;
 
   to: SupportedLanguages;
   plan?: string;
