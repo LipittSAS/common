@@ -5,6 +5,7 @@ export enum MediaStatus {
     ready = 'ready',
     downloaded = 'downloaded',
     stopped = 'stopped',
-    error = 'error'
+    error = 'error',
+    partiallyFailed = 'partially_failed'
 }
 
