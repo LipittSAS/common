@@ -94,6 +94,7 @@ export enum TextReplacementMode {
 export interface CreateMediaRequest {
   name: string;
   sourceLanguage?: SupportedLanguages;
+  nbrOfSpeakers?: number;
   targets: SupportedLanguages[];
   shouldLipSync: boolean;
   unverifiedMediaKey: string;
