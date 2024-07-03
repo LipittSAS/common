@@ -1,5 +1,5 @@
 {
-  "version": "1.10.24",
+  "version": "1.10.25",
   "name": "@lipitt/common",
   "description": "Common models between the API and the Client",
   "main": "index.js",
@@ -24,4 +24,3 @@
   },
   "homepage": "https://github.com/LipittSAS/common#readme"
 }
-
