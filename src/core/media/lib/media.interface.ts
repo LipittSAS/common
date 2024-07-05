@@ -72,6 +72,8 @@ export enum MediaFlowType {
   translation_no_lipsync_v2 = 'translation_no_lipsync_v2',
   translation_caption = 'translation_caption',
   translation_caption_no_lipsync = 'translation_caption_no_lipsync',
+  translation_with_check  = 'translation_check',
+  translation_check_no_lipsync  = 'translation_check_no_lipsync',
 }
 
 export interface S3UploadTemporaryUrlRequest {
