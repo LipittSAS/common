@@ -18,6 +18,7 @@ export enum SupportedLanguages {
   id = 'id',
   nl = 'nl',
   tr = 'tr',
+  ru = 'ru',
   tlPH = 'tl-PH',
   pl = 'pl',
   svSE = 'sv-SE',
