@@ -69,7 +69,7 @@ export enum MediaFlowType {
   translation = 'translation',
 }
 
-export interface S3UploadTemporaryUrlRequest {
+export interface S3MediaUploadTemporaryUrlRequest {
   size: number,
   duration: number,
   extension: string,
@@ -94,8 +94,17 @@ export interface CreateMediaRequest {
   shouldLipSync: boolean;
   unverifiedMediaKey: string;
   withCaptions: boolean;
-  withDiarization: boolean;
-  checkTranslation: boolean
+  checkTranslation: boolean;
+  transcription?: {
+    speakers: {
+      speaker: string;
+      text: string;
+      timestamps: number[];
+      words: unknown[];
+    }[];
+    listOfSpeakers: string[]
+  }
+  srt?: string;
 }
 
 
