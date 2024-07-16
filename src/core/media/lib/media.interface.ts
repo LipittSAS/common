@@ -99,8 +99,8 @@ export interface CreateMediaRequest {
     speakers: {
       speaker: string;
       text: string;
-      timestamps: number[];
-      words: unknown[];
+      timestamp: number[];
+      words: { word: string; start: number; end: number; probability: number; }[];
     }[];
     listOfSpeakers: string[]
   }
