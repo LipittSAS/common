@@ -67,13 +67,6 @@ export interface Media {
 
 export enum MediaFlowType {
   translation = 'translation',
-  translation_v2 = 'translation_v2',
-  translation_no_lipsync = 'translation_no_lipsync',
-  translation_no_lipsync_v2 = 'translation_no_lipsync_v2',
-  translation_caption = 'translation_caption',
-  translation_caption_no_lipsync = 'translation_caption_no_lipsync',
-  translation_check  = 'translation_check',
-  translation_check_no_lipsync  = 'translation_check_no_lipsync',
 }
 
 export interface S3UploadTemporaryUrlRequest {
@@ -101,6 +94,7 @@ export interface CreateMediaRequest {
   shouldLipSync: boolean;
   unverifiedMediaKey: string;
   withCaptions: boolean;
+  withDiarization: boolean;
   checkTranslation: boolean
 }
 
