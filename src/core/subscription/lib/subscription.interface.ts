@@ -21,5 +21,6 @@ export interface SubscriptionLipitt {
 export enum SubscriptionPlan {
   premium= "premium",
   master="master",
-  entreprise="enterprise"
+  entreprise="enterprise",
+  custom="custom"
 }
