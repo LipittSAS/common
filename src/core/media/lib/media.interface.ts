@@ -78,6 +78,7 @@ export interface S3MediaUploadTemporaryUrlRequest {
 
 export interface S3UploadTemporaryUrlResponse {
   key: string, 
+  path: string,
   uploadId?: string;
   urls: string[]
 }
