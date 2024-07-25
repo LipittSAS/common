@@ -78,7 +78,7 @@ export interface S3MediaUploadTemporaryUrlRequest {
 
 export interface S3UploadTemporaryUrlResponse {
   key: string, 
-  url: string
+  urls: string[]
 }
 
 export enum TextReplacementMode {
