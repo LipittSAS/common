@@ -18,6 +18,7 @@ export interface MediaTranscriptionSegment {
   selectedFaces?: string[];
   faces?: string[];
   words: MediaTranscriptionSegmentWord[];
+  ignore?: boolean;
 }
 
 export interface MediaTranscription {
