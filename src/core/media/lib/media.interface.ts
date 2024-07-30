@@ -12,6 +12,7 @@ export interface MediaTranscriptionSegmentWord {
 }
 
 export interface MediaTranscriptionSegment {
+  id: string;
   speaker: string;
   text: string;
   timestamp: number[];
