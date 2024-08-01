@@ -35,6 +35,9 @@ export enum SupportedLanguages {
   sk = 'sk',
   daDK = 'da-DK',
   taIN = 'ta-IN',
-  ukUA = 'uk-UA'
+  ukUA = 'uk-UA',
+  hu = 'hu',
+  vn = 'vn',
+  no = 'no'
 }
 
