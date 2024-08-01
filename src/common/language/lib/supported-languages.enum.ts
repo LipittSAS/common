@@ -37,7 +37,7 @@ export enum SupportedLanguages {
   taIN = 'ta-IN',
   ukUA = 'uk-UA',
   hu = 'hu',
-  vn = 'vn',
+  vi = 'vi',
   no = 'no'
 }
 
