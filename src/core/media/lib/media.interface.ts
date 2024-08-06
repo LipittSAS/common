@@ -53,7 +53,12 @@ export interface Media {
   ownerId: string;
   owner?: User;
 
-  transcription: MediaTranscription
+  specific_content: {
+    transcription?: MediaTranscription,
+    translation?: {
+        [key: string]: MediaTranscription;
+    }
+  }
 
 
   steps: MediaStep[];
