@@ -3,6 +3,8 @@ export enum MediaStepType {
     dissociateVoicesFromBackgroundNoise = "dissociate_voices_from_background",
     detectFaces = "detect_faces",
     diarization = "diarization",
+    registerGladia = "register_gladia",
+    mergeGladia = "merge_gladia",
     activeSpeakerDetection = "active_speaker_detection",
     fixTranscriptions = "fix_transcription",
     translateTranscriptions = "translate_transcription",
@@ -14,6 +16,8 @@ export enum MediaStepType {
     assembleAudio = 'assemble_audio',
     syncLips = "lip_sync",
     syncLabsLipSync = "sync_labs_lip_sync",
+    registerSynclabs = "register_synclabs",
+    mergeSynclabs = "merge_synclabs",
     assembleMedia = "assemble_media",
 }
 
