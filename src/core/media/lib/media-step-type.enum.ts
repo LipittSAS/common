@@ -4,6 +4,7 @@ export enum MediaStepType {
     detectFaces = "detect_faces",
     diarization = "diarization",
     registerGladia = "register_gladia",
+    webhookGladia = "webhook_gladia",
     mergeGladia = "merge_gladia",
     activeSpeakerDetection = "active_speaker_detection",
     fixTranscriptions = "fix_transcription",
@@ -17,6 +18,7 @@ export enum MediaStepType {
     syncLips = "lip_sync",
     syncLabsLipSync = "sync_labs_lip_sync",
     registerSynclabs = "register_synclabs",
+    webhookSynclabs = "webhook_synclabs",
     mergeSynclabs = "merge_synclabs",
     assembleMedia = "assemble_media",
 }
