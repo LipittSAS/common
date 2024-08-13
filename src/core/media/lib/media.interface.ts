@@ -74,6 +74,9 @@ export interface Media {
 
 export enum MediaFlowType {
   translation = 'translation',
+  voiceIsolation='voice_isolation',
+  getSubtitles= 'get_subtitles',
+  removeSubtitles= 'remove_subtitles',
 }
 
 export interface S3MediaUploadTemporaryUrlRequest {
