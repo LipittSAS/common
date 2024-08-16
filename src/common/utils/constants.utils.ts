@@ -15,7 +15,8 @@ export class ConstantUtils {
 
   static version = 'v1';
 
-  static supportedMimeTypes = ['video/mp4', 'video/mpeg', 'video/quicktime', 'video/x-msvideo']
+  static supportedVideoMimeTypes = ['video/mp4', 'video/mpeg', 'video/quicktime', 'video/x-msvideo'];
 
+  static supportedAudioMimeTypes = ['audio/mp3', 'audio/flac', 'audio/wav'];
 }
 
