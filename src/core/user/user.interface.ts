@@ -1,4 +1,5 @@
 import { Credits } from "../credits";
+import { Organization } from "../organizations";
 import { Vocabulary } from "../vocabulary";
 import { UserRole } from "./user-role.enum";
 import { UserState } from "./user-state.enum";
@@ -25,6 +26,7 @@ export interface User {
 
   updatedAt?: Date;
   createdAt?: Date;
+  organizations?: Organization[]
 }
 
 export interface UserCreationInput {
