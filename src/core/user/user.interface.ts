@@ -23,10 +23,10 @@ export interface User {
 
   credits?: Credits[]
   vocabulary?: Vocabulary
+  organizations: Organization[]
 
   updatedAt?: Date;
   createdAt?: Date;
-  organizations?: Organization[]
 }
 
 export interface UserCreationInput {
