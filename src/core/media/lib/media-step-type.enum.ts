@@ -15,6 +15,8 @@ export enum MediaStepType {
     mergeGladiaSubtitles = "merge_gladia_subtitles",
     diarizationByTarget = "diarization_by_target",
     addSubtitles = "add_subtitles",
+    textInpainting = "text_inpainting",
+    detectTexts = "detect_texts",
     cloneVoices = "clone_voices",
     generateVoices = "generate_voices",
     assembleAudio = 'assemble_audio',
