@@ -11,6 +11,7 @@ export interface MediaStep {
 
     type: MediaStepType;
     status: MediaStepStatus;
+    errorCode?: string
 
     retries: number;
     target?: SupportedLanguages
