@@ -24,6 +24,8 @@ export interface User {
   credits?: Credits[]
   vocabulary?: Vocabulary
   organizations: Organization[]
+  referralCode: string;
+  referrerId?: string;
 
   updatedAt?: Date;
   createdAt?: Date;
