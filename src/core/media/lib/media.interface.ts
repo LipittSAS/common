@@ -104,7 +104,8 @@ export interface CreateMediaRequest {
   nbrOfSpeakers?: number;
   targets: SupportedLanguages[];
   shouldLipSync: boolean;
-  unverifiedMediaKey: string;
+  unverifiedMediaKey?: string;
+  extension?: string;
   withCaptions: boolean;
   checkTranslation: boolean;
   transcription?: {

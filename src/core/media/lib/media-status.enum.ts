@@ -1,4 +1,5 @@
 export enum MediaStatus {
+    created= 'created',
     uploaded = 'uploaded',
     awaitingProcessing = 'awaiting_process',
     processing = 'processing',
