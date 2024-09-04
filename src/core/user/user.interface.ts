@@ -24,8 +24,9 @@ export interface User {
   credits?: Credits[]
   vocabulary?: Vocabulary
   organizations: Organization[]
-  referralCode: string;
+  referralCode?: string;
   referrerId?: string;
+  stripeAccountValidated?: boolean;
 
   updatedAt?: Date;
   createdAt?: Date;
