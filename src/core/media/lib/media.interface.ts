@@ -121,3 +121,10 @@ export interface CreateMediaRequest {
 }
 
 
+export interface MultipartUploadRequest {
+  mediaPath: string;
+  uploadId: string;
+  parts: { ETag: string; PartNumber: number }[];
+}
+
+
