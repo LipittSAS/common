@@ -1,5 +1,5 @@
 {
-  "version": "1.11.34",
+  "version": "1.11.35",
   "name": "@lipitt/common",
   "description": "Common models between the API and the Client",
   "main": "index.js",
