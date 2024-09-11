@@ -117,6 +117,7 @@ export interface CreateMediaRequest {
     }[];
     listOfSpeakers: string[]
   }
+  mediaType?: 'audio' | 'video'
   srt?: string;
 }
 
