@@ -62,6 +62,7 @@ export interface Media {
 
 
   steps: MediaStep[];
+  type: 'video' | 'audio';
 
   credits?: number;
   duration?: number;
