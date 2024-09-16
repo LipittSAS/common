@@ -99,6 +99,11 @@ export enum TextReplacementMode {
   properNames = 'proper_names'
 }
 
+export enum MediaType {
+  audio = 'audio',
+  video = 'video'
+}
+
 export interface CreateMediaRequest {
   name: string;
   sourceLanguage?: SupportedLanguages;
@@ -118,7 +123,7 @@ export interface CreateMediaRequest {
     }[];
     listOfSpeakers: string[]
   }
-  mediaType?: 'audio' | 'video'
+  mediaType?: MediaType;
   srt?: string;
 }
 
