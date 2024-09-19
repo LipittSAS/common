@@ -77,7 +77,7 @@ export enum MediaFlowType {
   translation = 'translation',
   voiceIsolation='voice_isolation',
   getSubtitles= 'get_subtitles',
-  translateSubtitles= 'translate_subtitles',
+  subtitlesTranslation= 'subtitlesTranslation',
   removeSubtitles= 'remove_subtitles',
 }
 
