@@ -102,7 +102,8 @@ export enum TextReplacementMode {
 
 export enum MediaType {
   audio = 'audio',
-  video = 'video'
+  video = 'video',
+  text = 'text',
 }
 
 export interface CreateMediaRequest {
