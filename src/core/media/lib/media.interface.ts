@@ -136,4 +136,31 @@ export interface MultipartUploadRequest {
   parts: { ETag: string; PartNumber: number }[];
 }
 
-
+export interface UpdateMediaRequest {
+  id: string;
+  name?: string;
+  sourceLanguage?: SupportedLanguages;
+  nbrOfSpeakers?: number;
+  targets?: SupportedLanguages[];
+  shouldLipSync?: boolean;
+  unverifiedMediaKey?: string;
+  extension?: string;
+  withCaptions?: boolean;
+  checkTranslation?: boolean;
+  transcription?: {
+      speakers: {
+          speaker: string;
+          text: string;
+          timestamp: number[];
+          words: {
+              word: string;
+              start: number;
+              end: number;
+              probability: number;
+          }[];
+      }[];
+      listOfSpeakers: string[];
+  };
+  mediaType?: MediaType;
+  srt?: string;
+}
