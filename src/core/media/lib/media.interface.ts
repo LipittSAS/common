@@ -57,7 +57,8 @@ export interface Media {
     transcription?: MediaTranscription,
     translation?: {
         [key: string]: MediaTranscription;
-    }
+    },
+    mediaDurationMs?: number;
   }
 
 
