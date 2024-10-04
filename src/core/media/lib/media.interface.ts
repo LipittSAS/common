@@ -80,7 +80,8 @@ export enum MediaFlowType {
   getSubtitles= 'get_subtitles',
   subtitlesTranslation= 'subtitlesTranslation',
   removeSubtitles= 'remove_subtitles',
-  splitAudioVideo='split_audio_video'
+  splitAudioVideo='split_audio_video',
+  textToSpeech='text_to_speech'
 }
 
 export interface S3MediaUploadTemporaryUrlRequest {
