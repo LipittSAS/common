@@ -18,7 +18,7 @@ export interface MediaTranscriptionSegment {
   timestamp: number[];
   selectedFaces?: string[];
   faces?: string[];
-  words: MediaTranscriptionSegmentWord[];
+  words?: MediaTranscriptionSegmentWord[];
   ignore?: boolean;
 }
 
