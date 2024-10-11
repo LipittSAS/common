@@ -124,7 +124,7 @@ export interface CreateMediaRequest {
       speaker: string;
       text: string;
       timestamp: number[];
-      words: { word: string; start: number; end: number; probability: number; }[];
+      words?: { word: string; start: number; end: number; probability: number; }[];
     }[];
     listOfSpeakers: string[]
   }
