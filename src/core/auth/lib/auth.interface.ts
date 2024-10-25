@@ -5,6 +5,7 @@ export abstract class RegisterRequest {
   abstract affiliate?: string;
   abstract name?: string;
   abstract referralCode?: string;
+  abstract redirectUrl?: string;
 }
 
 export interface OkResponse {
