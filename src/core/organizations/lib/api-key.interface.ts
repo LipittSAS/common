@@ -1,6 +1,6 @@
 import { ApiKeyStatus } from "./api-key-status.enum";
 
-export type ApiKey = {
+export interface ApiKey {
     id: string;
     name: string;
     firstChars: string;
