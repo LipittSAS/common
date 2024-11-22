@@ -59,7 +59,7 @@ export interface Media {
         [key: string]: MediaTranscription;
     },
     mediaDurationMs?: number;
-    flow_options?: Record<string, unknown> 
+    flow_options?: { checkTranslation: boolean } 
   }
 
 
