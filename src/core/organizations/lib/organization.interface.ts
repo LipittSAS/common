@@ -6,5 +6,7 @@ export interface Organization {
   name: string;
   customerId: string;
   ownerId: string;
-  credits: Credits[]
+  credits: Credits[];
+  requireAdminValidation?: boolean;
+  validator?: string;
 }
