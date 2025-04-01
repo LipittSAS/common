@@ -26,5 +26,6 @@ export enum MediaStepType {
     webhookSynclabs = "webhook_synclabs",
     mergeSynclabs = "merge_synclabs",
     assembleMedia = "assemble_media",
+    requireValidation = "require_validation",
 }
 

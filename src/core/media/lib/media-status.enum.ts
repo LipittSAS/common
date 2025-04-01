@@ -7,6 +7,7 @@ export enum MediaStatus {
     downloaded = 'downloaded',
     stopped = 'stopped',
     error = 'error',
-    partiallyFailed = 'partially_failed'
+    partiallyFailed = 'partially_failed',
+    requireValidation = 'require_validation',
 }
 
